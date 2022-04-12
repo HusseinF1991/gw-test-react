@@ -1,0 +1,86 @@
+.mainContainer {
+  background-color: #f46036;
+  width: 100wh;
+  height: 100vh;
+  /* justify-content: center; */
+  padding-left: 15rem;
+  padding-right: 15rem;
+  color: white;
+}
+
+.titleDiv {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.recipesTitlesDiv {
+  margin-top: 2rem;
+  background-color: #084c61;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 100px;
+  overflow-y: auto;
+}
+
+.recipesTitlesTbl {
+  border-top: 1px solid #f46036;
+  border-bottom: 1px solid #f46036;
+  width: 100%;
+  /* max-height: 50px; */
+}
+
+.recipesTitlesTbl tr {
+  cursor: pointer;
+  height: 30px;
+}
+
+.recipesTitlesTbl tr:hover {
+  color: black;
+}
+
+.recipesDetailsDiv {
+  background-color: #084c61;
+  border-radius: 6px;
+  height: 400px;
+}
+
+.detailsHeader {
+  height: 15%;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.detailsBody {
+  background-color: #481d24;
+  height: 75%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.detailsFooter {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.iconsStyling {
+  cursor: pointer;
+  color: black;
+}
+
+.iconsStyling:hover {
+  color: #f46036;
+}
